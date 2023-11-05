@@ -1,0 +1,118 @@
+
+body {
+
+  width: 100%;
+  padding: 0px;
+  box-sizing:  border-box;
+}
+
+
+
+.container {
+  display: grid;
+  padding: 10px;
+  grid-template-columns: 400px 450px 300px;
+  grid-template-rows: 400px 300px 4fr;
+  gap: 10px;
+  width: 1200px;
+  height: auto;
+  margin: auto; 
+  }
+
+ 
+
+
+  .item-1 {
+        background-image: url(foto\ 2.jpg); 
+        background-size: calc(140%);
+        background-position: center;         
+  }
+
+
+  .item-2 {
+    background-image: url(foto\ 1.jpg);
+    background-size: calc(140%);
+    background-position: center;       
+    
+}  
+
+  
+.item-3 {
+    background-image: url(corte-arredondado-e-uma-dica-para-cortes-e-penteados-em-cabelos-cacheados-1655913560659_v2_450x600.jpg);
+    background-size: calc(140%);
+    background-position: center;    
+}
+
+
+.item-4 {
+    background-image: url(foto\ 4.jpg);
+    background-size: calc(140%);
+    background-position: center;    
+    
+}
+
+.item-5 {
+    background-image: url(foto\ 6.jpg); 
+    background-size: calc(140%);
+    background-position: center;   
+    
+}
+
+
+.item-6 {
+    background-image: url(gabi.jpeg); 
+    background-size: calc(140%);
+    background-position: center top;   
+}
+
+.item-7 {
+    background-image: url(b.jpg); 
+    background-size: calc(200%);    
+    background-position: center;
+    height: 550px;    
+}
+
+.item-8 {
+    background-image: url(foto\ 3.jpg);
+    background-size: calc(170%);
+    background-position: center;    
+}
+
+
+  .item-9 {
+    background-image: url(c.jpg);
+    background-size: cover;
+    background-size: calc(250%);
+    background-position: center;
+   
+    
+  }
+
+  .item-10 {
+    background-image: url(a.jpg); 
+    width: 1170px;
+    height: 500px;
+    
+  }
+
+
+
+
+
+
+.footer {
+    display: flex;
+    margin-bottom: 0;
+    background-color: rgb(2, 110, 138);
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    height: 20px;        
+    text-decoration: none;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-size-adjust: 20px;
+}
+  
